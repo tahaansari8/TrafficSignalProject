@@ -18,7 +18,7 @@ Steps to run the program:
 	
 JUnit Test:
 
-	I have also included a JUnit test class which would require a JUnit library to execute.
+	I have also included a JUnit test class which would require a JUnit library (jar provided in lib folder) to execute.
 	The class for JUnit test is JUnitTestRunner.java.
 	Its method testOutput() has a variable 'seconds' which can be changed to produce different output.
 	The method compares the output stored in ProgramOutput.txt file with the one produced by program.
