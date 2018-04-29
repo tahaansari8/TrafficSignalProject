@@ -31,8 +31,10 @@ Details about Program:
 
 	Write a program that controls the traffic signals for a four-way intersection. Initially, we consider
 	traffic flowing in straight lines only, no turns. 
-	The four directions are S(outhbound) and N(orthbound) on Snell Rd; and W(estbound) and E(astbound) on Weaver Rd. The traffic 		lights should obey the following rules:
-		1. Cars arrive in each direction on both roads (Snell and Weaver) at the rate of 1 car per second. That is, 4 cars 			approach the intersection each second.
+	The four directions are S(outhbound) and N(orthbound) on Snell Rd; and W(estbound) and E(astbound) on Weaver Rd. 
+	The traffic lights should obey the following rules:
+		1. Cars arrive in each direction on both roads (Snell and Weaver) at the rate of 1 car per second. 
+		That is, 4 cars approach the intersection each second.
 		2. Only one road (Snell or Weaver) can have a "green" light at one time.
 		3. It is acceptable for both roads to have the "red" light at the same 	time. Of course, traffic backs up
 		on both roads if this happens.
