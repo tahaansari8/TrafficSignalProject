@@ -16,7 +16,7 @@ public class ServiceFactory {
 	/**
 	 * This method returns the ServiceImpl object using reflection.
 	 * The service Impl has getInstance() public method which is
-	 * invoked to create a object of it.
+	 * invoked to create an object of it.
 	 * 
 	 * @param serviceInterfaceName
 	 * @return Service
