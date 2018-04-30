@@ -42,7 +42,7 @@ public class TrafficSignalRunner {
 		String snellRoadStartGreenStatus = "Y";
 
 		try {
-			TrafficProperties.getInstance().getProperty("snellRoadStartGreenStatus");
+			snellRoadStartGreenStatus = TrafficProperties.getInstance().getProperty("snellRoadStartGreenStatus");
 		} catch (Exception e) {
 			//Log the exception here
 			/*
